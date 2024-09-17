@@ -3,7 +3,7 @@ Aplicación Web destinada a la compra de productos electronicos "gamers", creada
 
 <hr/>
 
-#### Tech Stack
+### Tech Stack
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-22A7F2?style=for-the-badge&logo=Visual%20studio&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
