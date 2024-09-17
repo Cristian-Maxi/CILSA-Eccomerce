@@ -1,6 +1,8 @@
 # ECCOMERCE PROJECT
 Aplicación Web destinada a la compra de productos electronicos "gamers", creada usando HTML, CSS, Javascript y Bootstrap por ahora. Continuaremos expandiendo este proyecto constantemente con la finalidad de crear un proyecto Full Stack.
 
+<hr/>
+
 #### Tech Stack
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-22A7F2?style=for-the-badge&logo=Visual%20studio&logoColor=white)
@@ -11,8 +13,6 @@ Aplicación Web destinada a la compra de productos electronicos "gamers", creada
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 <hr/>
-
-<br/>
 
 ### Team Members
 
