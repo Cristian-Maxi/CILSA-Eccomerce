@@ -12,7 +12,6 @@ Aplicación Web destinada a la compra de productos electronicos "gamers", creada
 
 <hr/>
 
-
 ## Team Members
 
 #### 🧑‍💻 Developers:
