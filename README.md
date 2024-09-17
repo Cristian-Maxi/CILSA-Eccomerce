@@ -10,6 +10,8 @@ Aplicación Web destinada a la compra de productos electronicos "gamers", creada
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
+## Team Members
+
 #### 🧑‍💻 Developers:
 
 | <img src="https://avatars.githubusercontent.com/u/134754887?s=400&u=33546e6f975dc6eaf1cf0fb83e1a7c7e3f889354&v=4" width=50>|
