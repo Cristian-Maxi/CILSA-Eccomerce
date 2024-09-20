@@ -5,6 +5,10 @@
     --pink: rgb(248, 50, 146);
 }
 
+body {
+    background-color: #323232 !important;
+}
+
 /*** Topbar Start ***/
 .fixed-top {
     transition: 0.5s;
