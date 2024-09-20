@@ -1,6 +1,7 @@
 :root {
     --bs-secondary: #FFB524;
-    --bs-white: #fff;
+    /*--bs-white: #fff;*/
+    --teal: rgb(20, 255, 236);
     --bs-gray: #6c757d;
     --pink: rgb(248, 50, 146);
 }
@@ -12,7 +13,7 @@ body {
 /*** Topbar Start ***/
 .fixed-top {
     transition: 0.5s;
-    background: var(--bs-white);
+    background: var(--teal);
     border: 0;
 }
 
