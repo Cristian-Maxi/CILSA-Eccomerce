@@ -1,5 +1,3 @@
-import { productos } from './productos.js';
-
 //Efecto del Header con SCROLL
 (function () {
     "use strict";
@@ -70,8 +68,12 @@ const contenedor = document.getElementById('productos');
 const masBuscados = document.getElementById('masBuscados');
 
 // Generar HTML para productos en oferta
-productos.forEach(producto => {
-    if(producto.oferta){
+// Ejemplo usando FETCH
+fetch('./js/productos.json')
+  .then(response => response.json())
+  .then(productos => {
+    productos.forEach(producto => {
+      if (producto.oferta) {
         const productoHTML = `
           <div class="col-lg-6 col-xl-4 oferta">
               <div class="p-4 rounded bg-light">
@@ -94,11 +96,15 @@ productos.forEach(producto => {
           </div>
         `;
         contenedor.innerHTML += productoHTML;
-    }
+      }
+    });
   });
 
 
 // Generar HTML para productos mas buscados
+// Ejemplo usando un módulo ES6 con datos embebidos (productos.js)
+import { productos } from './productos.js';
+
 productos.forEach(producto => {
     if(producto.masBuscados){
         const productoHTML = `

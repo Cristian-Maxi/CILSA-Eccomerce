@@ -8,7 +8,7 @@ export const productos = [
     "enlace": "/CILSA-Eccomerce/html/detalle.html",
     "valoracion": 5,
     "oferta": true,
-    "masBuscados": false,
+    "masBuscados": false
   },
   {
     "nombre": "Teclado Solarmax Gamer Negro KB302",
@@ -19,7 +19,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 4,
     "oferta": true,
-    "masBuscados": false,
+    "masBuscados": false
   },
   {
     "nombre": "Amd Ryzen 5 4600G 4.2 Ghz - AM4",
@@ -30,7 +30,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 4,
     "oferta": true,
-    "masBuscados": false,
+    "masBuscados": false
   },
   {
     "nombre": "Monitor Gamer 25p Samsung Odyssey",
@@ -41,7 +41,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 4,
     "oferta": true,
-    "masBuscados": false,
+    "masBuscados": false
   },
   {
     "nombre": "GeForce RTX 3060 12Gb MSI Ventus 2X",
@@ -52,7 +52,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 4,
     "oferta": true,
-    "masBuscados": true,
+    "masBuscados": true
   },
   {
     "nombre": "Amd Ryzen 7 5800XT 4.8 Ghz - AM4",
@@ -63,7 +63,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 5,
     "oferta": true,
-    "masBuscados": true,
+    "masBuscados": true
   },
   {
     "nombre": "Mouse Logitech M280 Inalámbrico",
@@ -74,7 +74,7 @@ export const productos = [
     "enlace": "#",
     "valoracion": 4,
     "oferta": false,
-    "masBuscados": true,
+    "masBuscados": true
   },
   {
     "nombre": "Monitor Gamer 34p Gigabyte Curvo Wide",
@@ -85,6 +85,6 @@ export const productos = [
     "enlace": "#",
     "valoracion": 5,
     "oferta": false,
-    "masBuscados": true,
+    "masBuscados": true
   }
 ]
