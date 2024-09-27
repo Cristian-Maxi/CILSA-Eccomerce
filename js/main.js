@@ -86,7 +86,7 @@ fetch('./js/productos.json')
                           <div class="d-flex my-3">
                               ${generarEstrellas(producto.valoracion)}
                           </div>
-                          <h4 class="mb-3">${producto.precio}</h4>
+                          <h4 class="mb-3">$${producto.precio}</h4>
                           <a href="${producto.enlace}" class="btn border border-secondary rounded-pill px-3 text-primary">
                               <i class="fa fa-shopping-bag me-2 text-primary"></i>Descripcion
                           </a>
