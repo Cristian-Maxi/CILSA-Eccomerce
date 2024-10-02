@@ -1,19 +1,35 @@
 :root {
     --bs-secondary: #FFB524;
-    /*--bs-white: #fff;*/
-    --teal: rgb(20, 255, 236);
+    --bs-white: #fff;
     --bs-gray: #6c757d;
     --pink: rgb(248, 50, 146);
 }
 
-body {
-    background-color: #323232 !important;
+#formulario {
+    margin-top: 200px;
+}
+
+#form-title {
+    background-color: rgb(255, 254, 254);
+    background-color: #555;
+    color: white;
+}
+
+form {
+    background: rgb(205, 184, 184);
+}
+
+#boton-oscuro:hover {
+    color: #333;
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
 }
 
 /*** Topbar Start ***/
 .fixed-top {
     transition: 0.5s;
-    background: var(--teal);
+    background: var(--bs-white);
     border: 0;
 }
 
@@ -117,185 +133,51 @@ body {
 }
 /*** Navbar End ***/
 
+/* Modo Oscuro */
 
-/*** Hero Header ***/
-.hero-header {
-    background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(../img/GamerBanner4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Raleway", sans-serif;
+body.modo-oscuro {
+    background: #333;
+    color: #fff;
 }
 
-.hero-header .TituloBanner {
-    font-weight: 600;
-    
+form.modo-oscuro {
+    background-color: #444;
+    border: 1px solid #fff;
 }
 
-.carousel-item {
-    position: relative;
+#form-title.modo-oscuro {
+    color: #333;
+    background-color: rgb(249, 224, 5);
 }
 
-.carousel-item a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    background: linear-gradient(rgba(255, 181, 36, 0.8), rgba(255, 181, 36, 0.8));
-    
+.entrys input.modo-oscuro {
+    background-color: #555;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    border: 1px solid var(--bs-white);
-    background: var(--bs-primary);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.boton button.modo-oscuro {
+    background-color: #666;
+    border: 2px solid #fff;
 }
 
-.carousel-control-next {
-    margin-right: 20px;
-}
-
-.carousel-control-prev {
-    margin-left: 20px;
-}
-
-.page-header {
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cart-page-header-img.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media (min-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 152px !important;
-    }
-}
-
-@media (max-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 97px !important;
-    }
-}
-/*** Hero Header end ***/
-
-
-/*** Facts Start ***/
-.counter {
-    height: 100%;
-    text-align: center;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
-}
-
-.counter i {
-    font-size: 60px;
-    margin-bottom: 25px;
-}
-
-.counter h4 {
-    color: var(--bs-primary);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.counter h1 {
-    margin-bottom: 0;
-}
-
-.ventas .container:hover {
-    transform: scale(1.03);
-    transition: 0.5s;
-    box-shadow: 0px 0px 20px rgb(34, 207, 3);
-}
-
-/*** Facts End ***/
-
-
-/*** Testomnio Start ***/
-.review .box-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.review .box-container .caja {
-    background-color: white;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 200px;
-    box-shadow: 1px -1px 22px 8px gray;
-}
-
-.review .box-container .caja:hover {
+.boton button.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
     transform: scale(1.05);
-    transition: transform 0.5s;
+    font-weight: bold;
 }
 
-.caja .fa-quote-right {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 80px;
-    color: var(--pink);
-    opacity: 0.3;
+#boton-oscuro.modo-oscuro {
+    background-color: #fff;
+    color: #444;
 }
 
-.caja .user img {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 20px;
-    transform: scale(1);
-    transition: transform 0.5s;
+#boton-oscuro.modo-oscuro:hover {
+    background-color: rgb(249, 224, 5);
+    transition: all .3s linear;
+    transform: scale(1.05);
 }
-
-.caja .user img:hover {
-    transform: scale(1.1);
-}
-
-.caja h3 {
-    color: var(--pink);
-    font-size: 20px;
-}
-
-.comentario {
-    display: inline;
-    background-repeat: no-repeat;
-    transition: all 0.5s ease-in-out;
-    background-position: left;
-    background-size: 00% 100%;
-    background-image: linear-gradient(#f6e053,#f6e05e);
-    color: gray;
-    font-size: 14px;
-}
-
-.comentario:hover {
-    background-size: 100% 100%;
-}
-
-.caja .stars i {
-    color: #f6e05e;
-    font-size: 15px;
-    padding: 10px 0px;
-}
-
-/*** Testomnio End ***/
 
 /*** Footer Start ***/
 
@@ -338,7 +220,6 @@ footer {
     color: var(--bs-secondary)!important;
 }
 /*** Footer End ***/
-
 
 .btn.border-secondary {
     transition: 0.5s;

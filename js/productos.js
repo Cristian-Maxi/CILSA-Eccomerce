@@ -1,0 +1,90 @@
+export const productos = [
+  {
+    "nombre": "GeForce RTX 4070 TI SUPER 16GB MSI",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Placa de video",
+    "imagen": "/CILSA-Eccomerce/img/4070.jpeg",
+    "precio": 1299999,
+    "enlace": "/CILSA-Eccomerce/html/detalle.html",
+    "valoracion": 5,
+    "oferta": true,
+    "masBuscados": false
+  },
+  {
+    "nombre": "Teclado Solarmax Gamer Negro KB302",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Periferico",
+    "imagen": "/CILSA-Eccomerce/img/Teclado-Solarmax-KB302-Usb_47330_1.jpeg",
+    "precio": 14179,
+    "enlace": "#",
+    "valoracion": 4,
+    "oferta": true,
+    "masBuscados": false
+  },
+  {
+    "nombre": "Amd Ryzen 5 4600G 4.2 Ghz - AM4",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Procesador",
+    "imagen": "/CILSA-Eccomerce/img/Procesador-Amd-Ryzen-5-4600G-Ghz-AM4_43031_1.jpeg",
+    "precio": 134949,
+    "enlace": "#",
+    "valoracion": 4,
+    "oferta": true,
+    "masBuscados": false
+  },
+  {
+    "nombre": "Monitor Gamer 25p Samsung Odyssey",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Monitor",
+    "imagen": "/CILSA-Eccomerce/img/Monitor-Gamer-25-Samsung-Plano-G4-IPS-Odyssey.jpeg",
+    "precio": 621989,
+    "enlace": "#",
+    "valoracion": 4,
+    "oferta": true,
+    "masBuscados": false
+  },
+  {
+    "nombre": "GeForce RTX 3060 12Gb MSI Ventus 2X",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Placa de video",
+    "imagen": "/CILSA-Eccomerce/img/Placa-De-Video-GeForce-RTX-3060-12Gb.jpeg",
+    "precio": 415139,
+    "enlace": "#",
+    "valoracion": 4,
+    "oferta": true,
+    "masBuscados": true
+  },
+  {
+    "nombre": "Amd Ryzen 7 5800XT 4.8 Ghz - AM4",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Procesador",
+    "imagen": "/CILSA-Eccomerce/img/Procesador-Amd-Ryzen-7-5800XT-4Ghz-AM4.jpeg",
+    "precio": 374599,
+    "enlace": "#",
+    "valoracion": 5,
+    "oferta": true,
+    "masBuscados": true
+  },
+  {
+    "nombre": "Mouse Logitech M280 Inalámbrico",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Periferico",
+    "imagen": "/CILSA-Eccomerce/img/mouse-inalambrico_logitech.jpeg",
+    "precio": 15999,
+    "enlace": "#",
+    "valoracion": 4,
+    "oferta": false,
+    "masBuscados": true
+  },
+  {
+    "nombre": "Monitor Gamer 34p Gigabyte Curvo Wide",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+    "categoria": "Monitor",
+    "imagen": "/CILSA-Eccomerce/img/Monitor-Gamer-34-Gigabyte-Curvo-Wide.jpeg",
+    "precio": 1199999,
+    "enlace": "#",
+    "valoracion": 5,
+    "oferta": false,
+    "masBuscados": true
+  }
+]
