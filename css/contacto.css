@@ -9,6 +9,12 @@
     margin-top: 200px;
 }
 
+@media (max-width: 765px) {
+    #formulario{
+        margin-top: 120px;
+    }
+}
+
 #form-title {
     background-color: rgb(255, 254, 254);
     background-color: #555;
